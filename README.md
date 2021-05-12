@@ -4,6 +4,10 @@
 
 This program uses postgreSQL to create a database for the remaining csv files of an old employee database and perform some Data Analytics on the data obtained
 
+# **Database ERD**
+
+![ERD](resources/erd.png)
+
 # **Task List**
 
 - [] List the following details of each employee: employee number, last name, first name, sex, and salary.
