@@ -12,7 +12,7 @@ drop table titles;
 
 -- Creating all tables
 create table titles (
-	title_id varchar(4) primary key,
+	title_id varchar(5) primary key,
 	title varchar (30));
 
 create table employees (
@@ -44,6 +44,3 @@ create table dept_manager (
 	emp_no int,
 	constraint fk_department foreign key(dept_no) references departments(dept_no),
 	constraint fk_employee foreign key(emp_no) references employees(emp_no));
-
-
-
