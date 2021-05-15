@@ -15,3 +15,4 @@
 ### *05/15/2021*
 - Created the JOIN's queries
 - Created filtered query for employees table
+- Creted the rest of the necessary queries
