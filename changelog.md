@@ -8,3 +8,10 @@
 - Created ERD on [QuickDBD](https://app.quickdatabasediagrams.com/#/d/8M7zq1) and saved as [PDF](resources/erd.pdf) and [PNG](resources/erd.png)
 - Created all tables [table_creation.sql](queries/table_creation.sql)
     - [X] Fix data type on ERD departments table
+
+### *05/13/2021*
+- Created the simple queries
+
+### *05/15/2021*
+- Created the JOIN's queries
+- Created filtered query for employees table

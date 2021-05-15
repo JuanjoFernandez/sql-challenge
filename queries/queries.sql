@@ -27,11 +27,12 @@ from dept_manager
 	
 -- -- List the department of each employee with the following information: employee number, last name, first name, and department name.
 
--- Using sub-queries
-select emp_no, last_name, first_name,
-	(select dept_no
-	 from dept_emp
-	 where employees.emp_no = dept_emp.emp_no)
-from employees;
+-- Using joins
+select employees.emp_no, employees.last_name, employees.first_name, departments.dept_name
+from employees
+	inner join dept_emp on
+	dept_emp.emp_no = employees.emp_no
+	inner join departments on
+	dept_emp.dept_no = departments.dept_name;
 
 
