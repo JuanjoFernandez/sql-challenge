@@ -61,3 +61,4 @@ where departments.dept_no = 'd007' or departments.dept_no = 'd005';
 
 -- -- In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 select last_name, count(last_name) as LNCount from employees group by last_name order by LNCount desc;
+
