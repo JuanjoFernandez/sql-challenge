@@ -18,3 +18,8 @@ This program uses postgreSQL to create a database for the remaining csv files of
 - [X] List all employees in the Sales department, including their employee number, last name, first name, and department name.
 - [X] List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
 - [X] In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+
+# **Insights**
+
+- After all the queries and getting to know the database better, there seems to be something wrong
+- The database will be analyzed in a jupyter notebook [suspicions](suspicions.ipynb)
