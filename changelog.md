@@ -1,3 +1,5 @@
+![sql-challenge](resources/header_opt.png)
+
 # **Changelog**
 
 ### *05/12/2021*

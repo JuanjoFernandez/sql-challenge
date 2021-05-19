@@ -1,4 +1,4 @@
-# sql-challenge
+![sql-challenge](resources/header_opt.png)
 
 # **Overview**
 
