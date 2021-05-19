@@ -4,6 +4,35 @@
 
 This program uses postgreSQL to create a database for the remaining csv files of an old employee database and perform some Data Analytics on the data obtained
 
+# **Repository Structure**
+
+```bash
+│   .gitignore                  # git ignore file
+│   changelog.md                # app changelog
+│   config.py                   # postgreSQL password file
+│   LICENSE                     # repository license
+│   README.md                   # readme file
+│   suspicions.ipynb            # data analysis jupyter notebook
+│
+├───EmployeeSQL                 # folder with csv files to create database from
+│       departments.csv
+│       dept_emp.csv
+│       dept_manager.csv
+│       employees.csv
+│       salaries.csv
+│       titles.csv
+│
+├───queries                     # folder with postgreSQL queries
+│       queries.sql
+│       table_creation.sql
+│
+├───resources                   # images and resources for the repository
+│       erd.pdf
+│       erd.png
+│       erd.txt
+│       header_opt.png
+```
+
 # **Database ERD**
 
 ![ERD](resources/erd.png)
