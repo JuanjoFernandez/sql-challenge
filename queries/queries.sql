@@ -62,3 +62,13 @@ where departments.dept_no = 'd007' or departments.dept_no = 'd005';
 -- -- In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 select last_name, count(last_name) as LNCount from employees group by last_name order by LNCount desc;
 
+-- -- Creating the query for the average salary by department
+select employees.emp_no, departments.dept_name, salaries.salary
+from employees
+	inner join dept_emp on
+	dept_emp.emp_no = employees.emp_no
+	inner join departments on
+	dept_emp.dept_no = departments.dept_no
+	inner join salaries on
+	salaries.emp_no = employees.emp_no;
+

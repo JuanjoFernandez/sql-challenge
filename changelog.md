@@ -20,3 +20,4 @@
 ### *05/19/2021*
 - Data seems suspicious
 - Plotted an histogram for salary ranges, distribution looks logarithmic, maybe too good to be true
+- Investigation finished, presenting results

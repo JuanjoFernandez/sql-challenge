@@ -23,3 +23,4 @@ This program uses postgreSQL to create a database for the remaining csv files of
 
 - After all the queries and getting to know the database better, there seems to be something wrong
 - The database will be analyzed in a jupyter notebook [suspicions](suspicions.ipynb)
+- The data analysis and insight are embedded as markdown in the jupyter notebook
